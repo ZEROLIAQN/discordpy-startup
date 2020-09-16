@@ -19,7 +19,7 @@ async def ping(ctx):
     
 @bot.command()
 async def now(ctx):
-    await ctx.send(https://time.is/ja/Japan)
+    await ctx.send('https://time.is/ja/Japan')
 
 if message.content('おはよう')
     await message.channel.send('おはよう')
