@@ -14,7 +14,7 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def now(ctx):
+async def 今何時？(ctx):
     await ctx.send('https://time.is/ja/Japan')
     
 if message.content('おはよう')
