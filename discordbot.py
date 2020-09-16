@@ -2,7 +2,7 @@ from discord.ext import commands
 import os
 import traceback
 
-bot = commands.Bot(command_prefix='/')
+bot = commands.Bot(command_prefix='m!')
 token = os.environ['DISCORD_BOT_TOKEN']
 
 
@@ -16,6 +16,12 @@ async def on_command_error(ctx, error):
 @bot.command()
 async def ping(ctx):
     await ctx.send('pong')
+    
+@bot.command()
+async def 今の時刻は？(ctx):
+    await ctx.send('https://time.is/ja/Japan')
 
+if message.content('おはよう')
+    await message.channel.send('おはよう')
 
 bot.run(token)
