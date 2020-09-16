@@ -14,14 +14,10 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def ping(ctx):
-    await ctx.send('pong')
-    
-@bot.command()
 async def now(ctx):
     await ctx.send('https://time.is/ja/Japan')
-
+    
 if message.content('おはよう')
-    await message.channel.send('おはよう')
+    await message.channel.send('おはよう！')
 
 bot.run(token)
