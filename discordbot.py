@@ -18,7 +18,7 @@ async def ping(ctx):
     await ctx.send('pong')
     
 @bot.command()
-async def 'what time is it now?'(ctx):
+async def time?(ctx):
     await ctx.send(https://time.is/ja/Japan)
 
 if message.content('おはよう')
