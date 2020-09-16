@@ -11,7 +11,13 @@ async def on_command_error(ctx, error):
     orig_error = getattr(error, "original", error)
     error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
     await ctx.send(error_msg)
-
+    
+client.on('ready', message =>
+{
+  client.user.setPresence({ game: { name: 'with discord.js' } });  
+  console.log('bot is ready!');
+});    
+    
 
 @bot.command()
 async def ping(ctx):
