@@ -25,7 +25,7 @@ from discord.ext import commands
      await ctx.send('pong!')		
 
       @bot.command()		
- async def 今何時？(ctx):		
+ async def now(ctx):		
      await ctx.send('これ見て'<\a>https://time.is/ja/Japan<a>)		
 
   if message.content('おはよう')		
