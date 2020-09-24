@@ -22,7 +22,7 @@ from discord.ext import commands
  
   @bot.command()		
  async def ping(ctx):		
-     await ctx.send('pong!')		
+     await ctx.send('知らん')		
 
       @bot.command()		
  async def 今何時？(ctx):		
