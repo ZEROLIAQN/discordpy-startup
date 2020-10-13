@@ -3,7 +3,7 @@ from discord.ext import commands
  import traceback		
 
  
-  bot = commands.Bot(command_prefix='/')		
+  bot = commands.Bot(command_prefix='NH!')		
  token = os.environ['DISCORD_BOT_TOKEN']		
 
  
