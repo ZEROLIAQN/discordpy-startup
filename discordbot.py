@@ -15,9 +15,7 @@ from discord.ext import commands
 
   client.on('ready', message =>		
  {		
-   client.user.setPresence({ game: { name: 'with discord.js' } });  		
-   console.log('bot is ready!');		
- });    		
+   client.user.setPresence({ game: { name: 'Discord' } });  		
 
  
   @bot.command()		
